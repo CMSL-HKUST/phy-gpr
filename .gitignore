@@ -4,10 +4,6 @@ __pycache__/
 .ipynb_checkpoints/
 .venv/
 venv/
-outputs/*
-!outputs/.gitkeep
-review/upstream_nohetero/*
-!review/upstream_nohetero/.gitkeep
 *.aux
 *.fdb_latexmk
 *.fls

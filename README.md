@@ -1,6 +1,6 @@
-# Physics-Informed Gaussian Processes for LPBF AlSi10Mg
+# Physics-Informed Gaussian Processes for LPBF Yield-Strength Prediction
 
-This repository implements a hierarchical Gaussian process workflow for LPBF AlSi10Mg yield-strength prediction. The default experiment uses grouped cross-validation over the original process conditions and compares 11 process-only, microstructure-only, and physics-informed model variants.
+This repository implements a hierarchical Gaussian process workflow for LPBF yield-strength prediction. The default experiment uses grouped cross-validation over the original process conditions and compares 11 process-only, microstructure-only, and physics-informed model variants.
 
 ![Workflow overview](method.png)
 
@@ -17,11 +17,6 @@ The default configuration is:
 - target: yield strength from `data/AlSi10Mg PSP feature table.xlsx`
 
 ## Data
-
-The repository includes the original process-structure-property spreadsheets:
-
-- `data/AlSi10Mg PSP feature table.xlsx`
-- `data/Ti-6Al-4V PSP feature table.xlsx`
 
 The datasets are sourced from Luo et al.:
 
@@ -113,4 +108,3 @@ src/pipeline.py               public Python API
 src/utils.py                  reproducibility and output helpers
 ```
 
-Generated outputs are written under `outputs/` and are ignored by Git except for placeholder files.
