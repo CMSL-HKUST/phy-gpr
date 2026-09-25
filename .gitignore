@@ -1,0 +1,16 @@
+.DS_Store
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.venv/
+venv/
+outputs/*
+!outputs/.gitkeep
+review/upstream_nohetero/*
+!review/upstream_nohetero/.gitkeep
+*.aux
+*.fdb_latexmk
+*.fls
+*.log
+*.out
+*.synctex.gz
