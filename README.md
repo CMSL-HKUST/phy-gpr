@@ -108,3 +108,10 @@ src/pipeline.py               public Python API
 src/utils.py                  reproducibility and output helpers
 ```
 
+## Citation
+
+If you find this repository useful, please cite the paper:
+
+```bibtex
+To be added
+```
